@@ -287,10 +287,6 @@ balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://registry.npmjs.org/balanced-match/-/balanced-match-1.0.2.tgz"
 
-base-64@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/base-64/-/base-64-1.0.0.tgz"
-
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz"
@@ -798,12 +794,6 @@ nanoid@^3.1.23:
   version "3.1.31"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.31.tgz#f5b58a1ce1b7604da5f0605757840598d8974dc6"
 
-node-fetch@^2.6.1:
-  version "2.6.6"
-  resolved "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.6.tgz"
-  dependencies:
-    whatwg-url "^5.0.0"
-
 object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
@@ -1026,12 +1016,12 @@ prosemirror-view@^1.0.0, prosemirror-view@^1.1.0, prosemirror-view@^1.13.3, pros
     prosemirror-state "^1.0.0"
     prosemirror-transform "^1.1.0"
 
-pyodide@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.npmjs.org/pyodide/-/pyodide-0.20.0.tgz"
+pyodide@^0.28.0:
+  version "0.28.0"
+  resolved "https://registry.yarnpkg.com/pyodide/-/pyodide-0.28.0.tgz#43c50db977e28eba83da84a326c32537bc713460"
+  integrity sha512-QML/Gh8eu50q5zZKLNpW6rgS0XUdK+94OSL54AUSKV8eJAxgwZrMebqj+CyM0EbF3EUX8JFJU3ryaxBViHammQ==
   dependencies:
-    base-64 "^1.0.0"
-    node-fetch "^2.6.1"
+    ws "^8.5.0"
 
 randombytes@^2.1.0:
   version "2.1.0"
@@ -1236,9 +1226,10 @@ stackframe@^1.1.1:
   version "1.2.1"
   resolved "https://registry.npmjs.org/stackframe/-/stackframe-1.2.1.tgz"
 
-starboard-rich-editor@^0.15.2:
-  version "0.15.2"
-  resolved "file:../starboard-rich-editor"
+starboard-rich-editor@^0.15.7:
+  version "0.15.7"
+  resolved "https://registry.yarnpkg.com/starboard-rich-editor/-/starboard-rich-editor-0.15.7.tgz#ce741ba75077b201bcf2e1d02a2ef7a0e09b8837"
+  integrity sha512-8EUEMsYLEh6u5aaTgbLkVgjOlPWXwAuaw0nbr/BNv/GcvHpedp5Jc5HU6+F3prJiMyTEOW9LccWRLu/9LSqL9g==
   dependencies:
     "@babel/parser" "^7.10.5"
     "@benrbray/prosemirror-math" "^0.1.4"
@@ -1315,10 +1306,6 @@ toggle-selection@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/toggle-selection/-/toggle-selection-1.0.6.tgz#6e45b1263f2017fa0acc7d89d78b15b8bf77da32"
 
-tr46@~0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz"
-
 tslib@2.1.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.1.0.tgz"
@@ -1345,20 +1332,14 @@ warning@^4.0.2:
   dependencies:
     loose-envify "^1.0.0"
 
-webidl-conversions@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
-
-whatwg-url@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz"
-  dependencies:
-    tr46 "~0.0.3"
-    webidl-conversions "^3.0.0"
-
 wrappy@1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
+
+ws@^8.5.0:
+  version "8.18.3"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.3.tgz#b56b88abffde62791c639170400c93dcb0c95472"
+  integrity sha512-PEIGCY5tSlUt50cqyMXfCzX+oOPqN0vuGqWzbcJ2xvnkzkq46oOpz7dQaTDBdfICb4N14+GARUDw2XV2N4tvzg==
 
 xtend@^4.0.0:
   version "4.0.2"
