@@ -1,5 +1,9 @@
 # Changelog
 
+## Release 0.15.8
+
+- Upgrade Pyodide to v0.28.0.
+
 ## Release 0.15.7
 
 - Fix matplotlib plotting (regression in 0.15.6).

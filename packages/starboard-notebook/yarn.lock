@@ -6470,13 +6470,13 @@
   dependencies:
     "escape-string-regexp" "^2.0.0"
 
-"starboard-python@^0.15.6":
+"starboard-python@^0.15.8":
   "resolved" "file:../starboard-python"
-  "version" "0.15.6"
+  "version" "0.15.8"
   dependencies:
     "@types/katex" "^0.11.1"
     "lit" "^2.0.2"
-    "pyodide" "^0.20.0"
+    "pyodide" "^0.28.0"
 
 "starboard-rich-editor@^0.15.2":
   "resolved" "file:../starboard-rich-editor"
