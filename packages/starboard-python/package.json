@@ -7,7 +7,7 @@
   "typings": "dist/starboardPython.d.ts",
   "scripts": {
     "build": "rimraf dist && npm run build:pyodide && rollup -c rollup.config.ts",
-    "build:pyodide": "mkdir dist && cp node_modules/pyodide/pyodide.js dist/pyodide.js",
+    "build:pyodide": "mkdir dist && cp ../../node_modules/pyodide/pyodide.js dist/pyodide.js",
     "test": "starlit nbtest test --timeout=60",
     "test:nocoi": "starlit nbtest test --timeout=60 --cross_origin_isolated=false"
   },
@@ -48,7 +48,7 @@
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.30.0",
     "rollup-plugin-web-worker-loader": "^1.6.1",
-    "starboard-rich-editor": "^0.15.7",
+    "starboard-rich-editor": "*",
     "starlit": "^0.1.17",
     "typescript": "^4.3.5"
   },

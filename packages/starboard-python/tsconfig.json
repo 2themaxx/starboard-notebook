@@ -16,6 +16,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "outDir": "./dist",
+    "skipLibCheck": true,
     "esModuleInterop": true,
     "experimentalDecorators": true
   },
