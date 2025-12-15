@@ -19,12 +19,14 @@ const baseConfig = {
     },
     resolve: {
         extensions: ['.ts', '.tsx', '.js', '.d.ts'],
+        modules: [
+            path.resolve(__dirname, 'node_modules'),
+            path.resolve(__dirname, '../../node_modules'),
+            'node_modules'
+        ],
         alias: {
-            "react": path.resolve("./node_modules/preact/compat"),
-            "react-dom": path.resolve("./node_modules/preact/compat"),
-            "markdown-it": path.resolve(path.join(__dirname, 'node_modules/markdown-it')),
-            "prosemirror-view": path.resolve(path.join(__dirname, '../starboard-rich-editor/node_modules/rich-markdown-editor/node_modules/prosemirror-view')),
-            "katex": path.resolve(path.join(__dirname, '../starboard-rich-editor/node_modules/katex'))
+            "react": path.resolve(__dirname, '../../node_modules/preact/compat'),
+            "react-dom": path.resolve(__dirname, '../../node_modules/preact/compat'),
         },
         fallback: { "assert": require.resolve("assert/") }
     },

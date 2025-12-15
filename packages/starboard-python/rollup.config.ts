@@ -45,7 +45,11 @@ export default [
       resolve({ browser: true }),
       typescript({
         tsconfig: "./src/worker/tsconfig.json",
-        include: ["./src/**/*.ts"],
+        tsconfigOverride: {
+          compilerOptions: {
+            declaration: false,
+          },
+        },
       }),
       commonjs(),
       terser(terserOptions),
@@ -59,7 +63,11 @@ export default [
       resolve({ browser: true }),
       typescript({
         tsconfig: "./src/worker/tsconfig.json",
-        include: ["./src/**/*.ts"],
+        tsconfigOverride: {
+          compilerOptions: {
+            declaration: false,
+          },
+        },
       }),
       commonjs(),
       terser(terserOptions),
@@ -71,7 +79,11 @@ export default [
     plugins: [
       resolve({ browser: true }),
       typescript({
-        include: ["./src/**/*.ts"],
+        tsconfigOverride: {
+          compilerOptions: {
+            declaration: false,
+          },
+        },
       }),
       string({
         include: ["dist/kernel.js", "dist/pyodide-worker.js"],

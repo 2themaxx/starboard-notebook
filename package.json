@@ -10,5 +10,13 @@
   "scripts": {
     "build": "yarn workspace starboard-rich-editor run build && yarn workspace starboard-python run build && yarn workspace starboard-notebook run build",
     "test": "yarn workspaces run test"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-is": "^18.2.0"
+  },
+  "resolutions": {
+    "tslib": "^2.6.0"
   }
 }
