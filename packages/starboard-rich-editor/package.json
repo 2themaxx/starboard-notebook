@@ -19,7 +19,8 @@
     ],
     "scripts": {
         "build": "tsc -b",
-        "start": "tsc -b --watch"
+        "start": "tsc -b --watch",
+        "test": "echo 'No tests configured for starboard-rich-editor'"
     },
     "main": "dist/index.js",
     "files": [
